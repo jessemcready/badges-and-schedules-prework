@@ -26,4 +26,7 @@ def printer(attendees)
   batch.each do |badge|
     puts badge
   end
+  rooms.each do |room|
+    puts room
+  end
 end
