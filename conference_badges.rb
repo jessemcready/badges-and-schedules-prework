@@ -8,6 +8,7 @@ def batch_badge_creator(attendees)
     attendees.each do |person|
       batch << badge_maker(person)
     end
+    batch
 end
 
 def assign_rooms(attendees)
